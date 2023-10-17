@@ -10,8 +10,8 @@ import {
   PlusCircle,
   Store as StoreIcon,
 } from "lucide-react";
-import { cn } from "@/lib/utils";
 
+import { cn } from "@/lib/utils";
 import {
   Popover,
   PopoverContent,
@@ -27,7 +27,7 @@ import {
   CommandItem,
   CommandList,
   CommandSeparator,
-} from "./ui/command";
+} from "@/components/ui/command";
 
 type PropoverTriggerProps = React.ComponentPropsWithoutRef<
   typeof PopoverTrigger
