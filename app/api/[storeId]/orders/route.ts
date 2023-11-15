@@ -67,7 +67,7 @@ export async function GET(
         storeId: params.storeId,
       },
     });
-
+    console.log("orders", billboards);
     return NextResponse.json(billboards);
   } catch (error) {
     console.log("[BILLBOARDS_GET]", error);
